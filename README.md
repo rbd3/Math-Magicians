@@ -88,7 +88,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd math-magician-microverse
+  cd math-magician
   npm install
 ```
 
@@ -170,7 +170,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/rbd3/math-magicians/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

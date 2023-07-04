@@ -9,8 +9,8 @@ function Button({ label, className }) {
 }
 
 Button.propTypes = {
-    label: PropTypes.string.isRequired,
-    className: PropTypes.string,
-  };
+  label: PropTypes.isRequired,
+  className: PropTypes.isRequired,
+};
 
 export default Button;

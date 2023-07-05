@@ -1,12 +1,11 @@
 .calculator {
   display: grid;
-  min-height: 70vh;
+  height: 80%;
   width: 28rem;
   margin: 2% auto 0;
   grid-template-columns: repeat(4, 7rem);
   grid-template-rows: minmax(6rem, auto) repeat(5, 5rem);
   font-family: cursive, sans-serif;
-  border: 2px solid black;
   filter: drop-shadow(5px 3px 3px #3f3e3e);
 }
 
@@ -15,6 +14,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  margin-top: 5%;
+  margin-bottom: -20%;
 }
 
 button {
@@ -28,7 +29,7 @@ button {
 
 input[type='text'] {
   width: 95%;
-  height: 80%;
+  height: 30%;
   color: white;
   background-color: rgb(185, 182, 182);
   padding: 0.7rem;

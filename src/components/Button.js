@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Button({ label, className }) {
+function Button({ label, className, clickEvent }) {
   return (
-    <button type="button" className={className}>
+    <button type="button" className={className} onClick={() => clickEvent(label)}>
+      
       {label}
     </button>
   );

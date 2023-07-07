@@ -11,7 +11,6 @@ function Calculator() {
     operation: '',
   });
 
-  
   function handleClick(buttonName) {
     const solution = calculate(state, buttonName);
     setState({
@@ -25,8 +24,7 @@ function Calculator() {
 
   return (
     <div className="calculator">
-        <Screen total={total} next={next} operation={operation} />
-        
+      <Screen total={total} next={next} operation={operation} /> 
       <Button label="AC" clickEvent={() => handleClick('AC')} />
       <Button label="+/-" clickEvent={() => handleClick('+/-')} />
       <Button label="%" clickEvent={() => handleClick('%')} />

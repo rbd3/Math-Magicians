@@ -21,9 +21,15 @@ function Screen({ total, next, operation }) {
 
   return (
     <div className="screen">
-      <input type="text" placeholder="0" value={displayValue} readOnly/>
+      <input type="text" placeholder="0" value={displayValue} readOnly />
     </div>
   );
 }
+
+Screen.prototype = {
+  total: prototype.isRequired,
+  next: prototype.isRequired,
+  operation: prototype.isRequired,
+};
 
 export default Screen;

@@ -28,9 +28,9 @@ function Screen({ total, next, operation }) {
 }
 
 Screen.prototypes = {
-  total: PropTypes.isRequired,
-  next: PropTypes.isRequired,
-  operation: PropTypes.isRequired,
+  total: PropTypes.string.isRequired,
+  next: PropTypes.string.isRequired,
+  operation: PropTypes.string.isRequired,
 };
 
 export default Screen;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function Screen({ total, next, operation }) {
   let displayValue = '';
@@ -27,9 +28,9 @@ function Screen({ total, next, operation }) {
 }
 
 Screen.prototype = {
-  total: prototype.isRequired,
-  next: prototype.isRequired,
-  operation: prototype.isRequired,
+  total: PropTypes.isRequired,
+  next: PropTypes.isRequired,
+  operation: PropTypes.isRequired,
 };
 
 export default Screen;

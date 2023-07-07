@@ -1,0 +1,29 @@
+.quotes {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  font-family: cursive, sans-serif;
+  font-size: 18px;
+  margin-left: 2%;
+  margin-top: 10%;
+}
+
+.loading {
+  font-family: cursive, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(6, 4, 110);
+}
+
+.error {
+  font-family: cursive, sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: red;
+}
+
+.author {
+  font-family: cursive, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}

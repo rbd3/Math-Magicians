@@ -1,5 +1,6 @@
 import './App.css';
 import Calculator from './components/Calculator';
+import FetchQuote from './components/ApiData';
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <header className="App-header">
         <h1>Math Magicians</h1>
       </header>
+      <FetchQuote />
       <Calculator />
     </div>
   );

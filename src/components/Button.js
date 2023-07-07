@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Button({ label, className }) {
+function Button({ label, className, clickEvent }) {
   return (
-    <button type="button" className={className}>
+    <button type="button" className={className} onClick={() => clickEvent(label)}>
       {label}
     </button>
   );
@@ -12,6 +12,7 @@ function Button({ label, className }) {
 Button.propTypes = {
   label: PropTypes.isRequired,
   className: PropTypes.isRequired,
+  clickEvent: PropTypes.func.isRequired,
 };
 
 export default Button;

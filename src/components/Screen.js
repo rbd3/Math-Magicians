@@ -27,7 +27,7 @@ function Screen({ total, next, operation }) {
   );
 }
 
-Screen.prototypes = {
+Screen.propTypes = {
   total: PropTypes.string.isRequired,
   next: PropTypes.string.isRequired,
   operation: PropTypes.string.isRequired,

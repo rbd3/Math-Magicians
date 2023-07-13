@@ -42,18 +42,17 @@ function Calculator() {
         <Button label="6" clickEvent={() => handleClick('6')} />
         <Button label="x" className="box-color" clickEvent={() => handleClick('x')} />
 
-      <Button label="7" clickEvent={() => handleClick('7')} />
-      <Button label="8" clickEvent={() => handleClick('8')} />
-      <Button label="9" clickEvent={() => handleClick('9')} />
-      <Button label="-" className="box-color" clickEvent={() => handleClick('-')} />
+        <Button label="7" clickEvent={() => handleClick('7')} />
+        <Button label="8" clickEvent={() => handleClick('8')} />
+        <Button label="9" clickEvent={() => handleClick('9')} />
+        <Button label="-" className="box-color" clickEvent={() => handleClick('-')} />
 
-      <Button label="0" className="span-box" clickEvent={() => handleClick('0')} />
+        <Button label="0" className="span-box" clickEvent={() => handleClick('0')} />
 
-      <Button label="." clickEvent={() => handleClick('.')} />
-      <Button label="=" className="box-color" clickEvent={() => handleClick('=')} />
+        <Button label="." clickEvent={() => handleClick('.')} />
+        <Button label="=" className="box-color" clickEvent={() => handleClick('=')} />
     </div>
-    </div>
-    
+    </div>    
   );
 }
 

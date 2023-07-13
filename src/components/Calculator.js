@@ -24,23 +24,23 @@ function Calculator() {
 
   return (
     <div>
-      <p className='intro'>Let's do some math!</p>
+      <p className="intro">Let&apos;s do some math!</p>
       <div className="calculator">
-      <Screen total={total} next={next} operation={operation} />
-      <Button label="AC" clickEvent={() => handleClick('AC')} />
-      <Button label="+/-" clickEvent={() => handleClick('+/-')} />
-      <Button label="%" clickEvent={() => handleClick('%')} />
-      <Button label="÷" className="box-color" clickEvent={() => handleClick('÷')} />
+        <Screen total={total} next={next} operation={operation} />
+        <Button label="AC" clickEvent={() => handleClick('AC')} />
+        <Button label="+/-" clickEvent={() => handleClick('+/-')} />
+        <Button label="%" clickEvent={() => handleClick('%')} />
+        <Button label="÷" className="box-color" clickEvent={() => handleClick('÷')} />
 
-      <Button label="1" clickEvent={() => handleClick('1')} />
-      <Button label="2" clickEvent={() => handleClick('2')} />
-      <Button label="3" clickEvent={() => handleClick('3')} />
-      <Button label="+" className="box-color" clickEvent={() => handleClick('+')} />
+        <Button label="1" clickEvent={() => handleClick('1')} />
+        <Button label="2" clickEvent={() => handleClick('2')} />
+        <Button label="3" clickEvent={() => handleClick('3')} />
+        <Button label="+" className="box-color" clickEvent={() => handleClick('+')} />
 
-      <Button label="4" clickEvent={() => handleClick('4')} />
-      <Button label="5" clickEvent={() => handleClick('5')} />
-      <Button label="6" clickEvent={() => handleClick('6')} />
-      <Button label="x" className="box-color" clickEvent={() => handleClick('x')} />
+        <Button label="4" clickEvent={() => handleClick('4')} />
+        <Button label="5" clickEvent={() => handleClick('5')} />
+        <Button label="6" clickEvent={() => handleClick('6')} />
+        <Button label="x" className="box-color" clickEvent={() => handleClick('x')} />
 
       <Button label="7" clickEvent={() => handleClick('7')} />
       <Button label="8" clickEvent={() => handleClick('8')} />

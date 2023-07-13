@@ -1,10 +1,10 @@
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
-import { Routes, Route } from 'react-router-dom';
+
 import FetchQuote from './components/ApiData';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-
 
 function App() {
   return (

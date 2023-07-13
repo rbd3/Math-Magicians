@@ -51,8 +51,8 @@ function Calculator() {
 
         <Button label="." clickEvent={() => handleClick('.')} />
         <Button label="=" className="box-color" clickEvent={() => handleClick('=')} />
+      </div>
     </div>
-    </div>    
   );
 }
 

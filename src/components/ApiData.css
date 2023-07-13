@@ -4,7 +4,7 @@
   flex-direction: column;
   font-family: cursive, sans-serif;
   font-size: 18px;
-  margin-left: 2%;
+  margin-left: 8%;
   margin-top: 10%;
 }
 
@@ -13,6 +13,7 @@
   font-size: 2rem;
   font-weight: bold;
   color: rgb(6, 4, 110);
+  margin-left: 10%;
 }
 
 .error {
@@ -20,6 +21,7 @@
   font-size: 2rem;
   font-weight: bold;
   color: red;
+  margin-left: 10%;
 }
 
 .author {

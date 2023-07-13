@@ -23,7 +23,9 @@ function Calculator() {
   const { total, next, operation } = state;
 
   return (
-    <div className="calculator">
+    <div>
+      <p className='intro'>Let's do some math!</p>
+      <div className="calculator">
       <Screen total={total} next={next} operation={operation} />
       <Button label="AC" clickEvent={() => handleClick('AC')} />
       <Button label="+/-" clickEvent={() => handleClick('+/-')} />
@@ -50,6 +52,8 @@ function Calculator() {
       <Button label="." clickEvent={() => handleClick('.')} />
       <Button label="=" className="box-color" clickEvent={() => handleClick('=')} />
     </div>
+    </div>
+    
   );
 }
 

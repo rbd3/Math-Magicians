@@ -2,7 +2,7 @@
   display: grid;
   height: 80%;
   width: 28rem;
-  margin-top: -22%;
+  margin-top: -5%;
   margin-left: 52%;
   margin-bottom: 1%;
   grid-template-columns: repeat(4, 7rem);
@@ -51,4 +51,10 @@ input[type='text']::placeholder {
 
 .box-color {
   background: #e87c10;
+}
+
+.intro {
+  margin-left: 3.8%;
+  font-size: 24px;
+  font-weight: bold;
 }
